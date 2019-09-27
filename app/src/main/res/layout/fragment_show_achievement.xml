@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowAchievementFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/achievement_background_gradient">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_shape">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="75dp"
+                    android:layout_height="85dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="12dp"
+                    android:src="@drawable/first_award" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="94dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="First Step"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView11"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/sniglet"
+                    android:textColor="#000000"
+                    android:text="Complete one chapter of any subject."
+                    android:paddingTop="10dp"
+                    android:paddingBottom="25dp"/>
+
+                <TextView
+                    android:id="@+id/textViewAchievement1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/textView11"
+                    android:layout_marginBottom="14dp"
+                    android:fontFamily="@font/scada"
+                    android:text="TextView"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#651FFF"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_shape">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="75dp"
+                    android:layout_height="85dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="12dp"
+                    android:src="@drawable/achievement_trophy" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="94dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/aldrich"
+                    android:textColor="#000000"
+                    android:text="Target Acquired"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView20"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/sniglet"
+                    android:textColor="#000000"
+                    android:text="Score full marks in any subject."
+                    android:paddingTop="10dp"
+                    android:paddingBottom="25dp"/>
+
+                <TextView
+                    android:id="@+id/textViewAchievement2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/textView20"
+                    android:layout_marginBottom="14dp"
+                    android:fontFamily="@font/scada"
+                    android:text="TextView"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#651FFF"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

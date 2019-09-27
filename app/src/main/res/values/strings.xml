@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">EduHub</string>
+    <string name="eduhublogo">eduhublogo</string>
+    <string name="name">Name</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="button">Login</string>
+    <string name="new_user_click_here_to_register">Need an account? Sign up now!</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="next">Next</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="calculations_and_graphs">Calculations and Graphs</string>
+    <string name="science">Science</string>
+    <string name="experiments">Experiments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_content_main">ContentMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">EduHub</string>
+    <string name="nav_header_subtitle">Be stronger than your excuses.</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="desc_math1">\n Description :\n\nVenn diagrams are an important tool allowing relations between sets to be visualized graphically.
+                                This chapter introduces the use of Venn diagrams to visualize intersections and unions of set, as well as
+                                subsets and supersets.</string>
+    <string name="desc_add_maths1">\n Description :\n\nIntroduction to the product rule, which tells us how to take the derivative of a product of
+                                functions.\nThe product rule is a formal rule for differentiating problems where one function is multiplied by another.
+                                The rule follows from the limit definition of derivative. Each time, differentiate a different function in the product
+                                and add the two terms together.</string>
+    <string name="desc_bio1">\n Description :\n\nThis video explains about the pulmonary system including the lungs, larynx, trachea, bronchi,
+                                alveoli and thoracic diaphragm in a detailed manner. And also the functions of the arteries and veins in the lung
+                                system.</string>
+    <string name="desc_chem1">\n Description :\n\nThis video shows how elements relate to atoms. The basics of how protons, electrons and neutrons
+                                make up an atom.\nChemistry is the study of matter: its composition, properties, and reactivity. This material roughly
+                                covers a first-year high school or college course, and a good understanding of algebra is helpful.</string>
+    <string name="desc_phy1">\n Description: \n\nThis video shows an example of calculating the speed and velocity.\nPhysics is the study of the basic
+                                principles that govern the physical world around us. We will start by looking at motion itself. Then, we will learn
+                                about forces, momentum, energy and other concepts in lots of different physical situations.</string>
+    <string name="desc_math2">\n Description :\n\nThis animated "Math Shorts" explains algebraic equations and provides a concrete example of how
+                                they can be used to answer Real-World questions.</string>
+    <string name="desc_add_maths2">\n Description :\n\nThe chain rule states that the derivative of "f(g(x)) is f\\\'(g(x))_g'(x)". In other words,
+                                    it helps us differentiate *composite functions*. For example, "sin(x_)" is a composite function because it can
+                                    be constructed as "f(g(x)) for f(x)=sin(x) and g(x)=x_". Using the chain rule and the derivatives of "sin(x) and x_",
+                                    we can then find the derivative of "sin(x_)".</string>
+    <string name="desc_bio2">\n Description :\n\nThis video explains about the movement of red blood cells within the human body and also oxygen
+                                uptake by hemoglobin in red blood cells. As well as the transfer of oxygen through the lungs to every part of our
+                                body.</string>
+    <string name="desc_chem2">\n Description :\n\nThis video shows the difference between atomic weight and atomic mass in chemistry, and how it
+                                compares to the physics definitions of weight and mass.\n Chemistry is the study of matter: its composition, properties,
+                                and reactivity. This material roughly covers a first-year high school or college course, and a good understanding of
+                                algebra is helpful.</string>
+    <string name="desc_phy2">\n Description: \n\nThis video shows a simple example of sovling for time given distance and rate.\nPhysics is the study of the basic
+                                principles that govern the physical world around us. We will start by looking at motion itself. Then, we will learn
+                                about forces, momentum, energy and other concepts in lots of different physical situations.</string>
+</resources>

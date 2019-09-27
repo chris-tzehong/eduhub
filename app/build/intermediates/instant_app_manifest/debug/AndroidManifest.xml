@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.eduhub"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/graduation_hat_cert"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name="com.example.android.eduhub.MainActivity"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.eduhub.Register"
+            android:theme="@style/CustomActionBarTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.example.android.eduhub.RegisterPopUp"
+            android:theme="@style/AppTheme.popUpTheme" />
+        <activity
+            android:name="com.example.android.eduhub.LoginPopUp"
+            android:theme="@style/AppTheme.popUpTheme" />
+        <activity
+            android:name="com.example.android.eduhub.ContentMainActivity"
+            android:label="@string/title_activity_content_main"
+            android:theme="@style/CustomActionBarThemeForContent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.android.eduhub.EditProfilePopUp"
+            android:theme="@style/AppTheme.popUpThemeForEdit" />
+        <activity
+            android:name="com.example.android.eduhub.maths1MCQ"
+            android:theme="@style/CustomActionBarTheme" />
+        <activity
+            android:name="com.example.android.eduhub.maths2MCQ"
+            android:theme="@style/CustomActionBarTheme" />
+        <activity
+            android:name="com.example.android.eduhub.addmath1MCQ"
+            android:theme="@style/CustomActionBarTheme" />
+        <activity
+            android:name="com.example.android.eduhub.addmath2MCQ"
+            android:theme="@style/CustomActionBarTheme" />
+        <activity
+            android:name="com.example.android.eduhub.phy1MCQ"
+            android:theme="@style/CustomActionBarTheme" />
+        <activity
+            android:name="com.example.android.eduhub.phy2MCQ"
+            android:theme="@style/CustomActionBarTheme" />
+        <activity
+            android:name="com.example.android.eduhub.chem1MCQ"
+            android:theme="@style/CustomActionBarTheme" />
+        <activity
+            android:name="com.example.android.eduhub.chem2MCQ"
+            android:theme="@style/CustomActionBarTheme" />
+        <activity
+            android:name="com.example.android.eduhub.bio1MCQ"
+            android:theme="@style/CustomActionBarTheme" />
+        <activity
+            android:name="com.example.android.eduhub.bio2MCQ"
+            android:theme="@style/CustomActionBarTheme" />
+    </application>
+
+</manifest>

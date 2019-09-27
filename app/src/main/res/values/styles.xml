@@ -1,0 +1,138 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RegisterField">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/cabin</item>
+    </style>
+
+    <style name="AppTheme.popUpTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="AppTheme.popUpThemeForEdit" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="CustomActionBarThemeForContent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="CustomActionBarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/grey</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RegisterFieldError">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_height">18dp</item>
+        <item name="android:height">15dp</item>
+    </style>
+
+    <style name="RegisterFieldErrorSymbol">
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ProfileImmutableText">
+        <item name="android:layout_width">125dp</item>
+        <item name="android:padding">7.2dp</item>
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/coda</item>
+    </style>
+
+    <style name="ProfileMutableText">
+        <item name="android:layout_width">210dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/convergence</item>
+    </style>
+
+    <style name="EditProfileField">
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/bubbler_one</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="EditProfileButton">
+        <item name="android:background">@drawable/edit_profile_button</item>
+        <item name="android:textColor">@color/purpleBlue</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/monoton</item>
+        <item name="android:textSize">10.5sp</item>
+    </style>
+
+    <style name="AddNewTaskFieldTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/bungee_inline</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/quiteBlue</item>
+    </style>
+
+    <style name="DateAndTimeDisplay">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/mclaren</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">200dp</item>
+    </style>
+
+    <style name="AddNewTaskButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/atma</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_width">120dp</item>
+    </style>
+
+    <style name="TaskDetails">
+        <item name="android:textColor">@color/lightOrange</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/happy_monkey</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="AboutDetails">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/quando</item>
+    </style>
+
+    <style name="Progress">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/mclaren</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

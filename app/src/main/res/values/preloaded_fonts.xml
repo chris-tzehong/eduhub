@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aldrich</item>
+        <item>@font/almendra</item>
+        <item>@font/atma</item>
+        <item>@font/autour_one</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/bubbler_one</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/cabin</item>
+        <item>@font/cabin_sketch</item>
+        <item>@font/coda</item>
+        <item>@font/contrail_one</item>
+        <item>@font/convergence</item>
+        <item>@font/ewert</item>
+        <item>@font/happy_monkey</item>
+        <item>@font/jockey_one</item>
+        <item>@font/knewave</item>
+        <item>@font/mclaren</item>
+        <item>@font/modak</item>
+        <item>@font/monoton</item>
+        <item>@font/pacifico</item>
+        <item>@font/proza_libre</item>
+        <item>@font/quando</item>
+        <item>@font/rock_salt</item>
+        <item>@font/scada</item>
+        <item>@font/sniglet</item>
+        <item>@font/spicy_rice</item>
+        <item>@font/trade_winds</item>
+    </array>
+</resources>

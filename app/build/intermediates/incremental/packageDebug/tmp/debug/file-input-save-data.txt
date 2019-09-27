@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Sep 24 01:22:39 SGT 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Forge-15 i7\\Desktop\\School\\EduHub-20190912T134152Z-001\\EduHub\\EduHub\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1

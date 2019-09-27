@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuCourse"
+            android:icon="@drawable/baseline_school_black_18dp"
+            android:title="Course" />
+        <item
+            android:id="@+id/menuScheduler"
+            android:icon="@drawable/baseline_access_alarms_black_18dp"
+            android:title="Scheduler" />
+        <item
+            android:id="@+id/menuProgress"
+            android:icon="@drawable/baseline_assessment_black_18dp"
+            android:title="Progress" />
+        <item
+            android:id="@+id/menuProfile"
+            android:icon="@drawable/baseline_account_circle_black_18dp"
+            android:title="Profile" />
+    </group>
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/menuLogout"
+                android:icon="@drawable/baseline_power_settings_new_black_18dp"
+                android:title="Logout" />
+            <item
+                android:id="@+id/menuAbout"
+                android:icon="@drawable/baseline_copyright_black_18dp"
+                android:title="About"/>
+        </menu>
+    </item>
+
+</menu>
